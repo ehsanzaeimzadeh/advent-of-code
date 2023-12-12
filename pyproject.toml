@@ -1,0 +1,10 @@
+[tool.ruff]
+line-length = 120
+ignore = ["D203"]
+show-source = true
+
+[tool.black]
+line-length = 120
+
+[tool.pytest.init_options]
+addopt = "-ra --cov"
