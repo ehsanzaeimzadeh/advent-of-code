@@ -39,5 +39,5 @@ def part_2(lines):
 
 
 def solve(lines):
-    print(part_1(lines))
-    print(part_2(lines))
+    print(__file__.split("/")[-1], "part_1: ", part_1(lines))
+    print(__file__.split("/")[-1], "part_2: ", part_2(lines))
